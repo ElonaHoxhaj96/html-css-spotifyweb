@@ -142,11 +142,15 @@ img{
 }
 
 /*Third section*/
-
 h5{
     margin: 1rem 0;
-    color: #73767b;
 }
+
+/*Fourth section*/
+.img-circle{
+    clip-path: circle()
+}
+
 
 
 
