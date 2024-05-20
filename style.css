@@ -7,6 +7,7 @@
 
 /*MAIN*/
 main{
+    position: relative;
     display: flex;
     background-color: #141922;
     /*DEBUG*/
@@ -24,8 +25,8 @@ header{
     position: fixed;
     top: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.395);
-    width: calc(100% - 225px);
+    background-color: rgba(0, 0, 0, 0.219);
+    width: calc(100vw - 250px);
     height: 100px;
     color: white;
     display: flex;
@@ -57,11 +58,13 @@ header div{
 
 /*SETTING NAV*/
 nav{
+    position: absolute;
     top: 0;
+    left: 0;
     background-color: black;
     width: 250px;
     height: 100vh;
-    padding: 20px;
+    padding: 20px 0 0 20px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -70,7 +73,7 @@ nav{
 
 #logo{
     width: 80%;
-
+    line-height: 50px;
 }
 
 ul{
