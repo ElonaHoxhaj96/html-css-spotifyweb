@@ -33,6 +33,7 @@ header{
     justify-content: flex-end;
     align-items: center;
     z-index: 900;
+    margin-left: auto;
 }
 
 button{
@@ -104,12 +105,29 @@ i{
 }
 
 /*CONTENITOR MAIN*/
-#main-menu{
+#contenitor{
+    display: flex;
+    width: calc(100% - 250px);
+    margin-left: auto;
+}
+
+#content-menu{
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 2rem; 
+}
+
+section{
     width: 100%;
 }
+
+
+
+
+
+
+
+
 
 
 
