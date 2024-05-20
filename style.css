@@ -5,27 +5,6 @@
     font-family: "Montserrat"
 }
 /* SETTING THE MACRO AREA POSITION*/
-header{
-    position: fixed;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.395);
-    width: 100%;
-    height: 100px;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-}
-
-nav{
-    position: fixed;
-    top: 0;
-    background-color: purple;
-    width: 250px;
-    height: 100vh;
-}
-
 main{
     padding-left: 100px;
     background-color: green;
@@ -41,6 +20,18 @@ footer{
 }
 
 /*HEADER*/
+header{
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.395);
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 button{
     padding: 10px 30px;
     background-color: transparent;
@@ -57,6 +48,36 @@ a{
 header a {
     font-size: 20px;
 }
+
 header div{
     margin-right: 5px;
+}
+
+/*SETTING NAV*/
+nav{
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#logo{
+    width: 80%;
+}
+
+ul{
+    list-style: none;
+    line-height: 2rem;
+}
+.home-icons{
+    font-size: 25px;
+}
+.playlist-icons{
+    font-size: 35px;
 }
