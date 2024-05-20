@@ -7,16 +7,9 @@
 /* SETTING THE MACRO AREA POSITION*/
 main{
     padding-left: 100px;
-    background-color: green;
-
-}
-
-footer{ 
-    position: fixed;
-    bottom: 0;
-    background-color: red;
+    background-color: #141922;
     width: 100%;
-    height: 100px; 
+    height: 100vh;
 }
 
 /*HEADER*/
@@ -95,4 +88,13 @@ i{
 #create-playlist{
     display: flex;
     font-size: 17px;
+}
+
+/*FOOTER*/
+footer{ 
+    position: fixed;
+    bottom: 0;
+    background-color: #282828;
+    width: 100%;
+    height: 100px; 
 }
