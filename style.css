@@ -75,9 +75,24 @@ ul{
     list-style: none;
     line-height: 2rem;
 }
+
+i{
+    margin-right: 0.5rem;
+}
+
 .home-icons{
     font-size: 25px;
 }
+
 .playlist-icons{
     font-size: 35px;
+}
+
+#playlist{
+    font-size: 15px;
+}
+
+#create-playlist{
+    display: flex;
+    font-size: 17px;
 }
