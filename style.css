@@ -132,9 +132,21 @@ section{
 }
 /*second section*/
 .images-contenitor{
-    margin-top: 2rem;
+    margin: 2rem 0;
     display: flex;
     gap: 1rem;
+    text-align: center;
+    width: 100%;
+}
+.images-contenitor img{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.brani{
+    width:calc(100%/6) ;
+}
+.image{
+   
 }
 
 img{
