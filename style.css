@@ -18,7 +18,7 @@ main{
 
 #contenitor{
     display: flex ;
-    padding-top: 100px;
+    padding: 100px 0;
     width: 100%;
 }
 
@@ -65,13 +65,15 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2000;
     background-color: black;
     width: 250px;
-    height: 100%;
-    padding: 20px 0 0 20px;
+    height: calc(100% - 100px); 
+    padding: 1rem;
     color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 2rem;
 }
 
@@ -99,7 +101,9 @@ i{
 
 #playlist{
     font-size: 15px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: -3rem;
 }
 
 h3 , h2{
@@ -109,6 +113,31 @@ h3 , h2{
 #create-playlist{
     display: flex;
     font-size: 17px;
+}
+/*Nav account section*/
+#account{
+    width: 100%;
+    align-content: flex-end;
+}
+#account-instal{
+    font-size: 15px;
+    font-weight: 600;
+}
+#account hr{
+    width: 90%;
+    margin: 0.5rem 0;
+    border: solid 0.5px;
+    color:#73767b ;
+}
+#account-user {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+#account-user h4{
+    color: white;
+    font-size: 16px;
 }
 
 /*CONTENITOR MAIN*/
@@ -191,7 +220,7 @@ footer > section{
 }
 
 #img-player{
-    width: 15%;
+    width: 10%;
 }
 footer h5{
     margin: 0;
@@ -235,4 +264,10 @@ footer hr{
 
 .volum{
     width: 40%;
+}
+
+
+@media screen and (max-width: 1020px) {
+    
+    
 }
