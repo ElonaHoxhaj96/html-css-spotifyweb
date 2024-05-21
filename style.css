@@ -22,44 +22,6 @@ main{
     width: 100%;
 }
 
-/*HEADER*/
-header{
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.219);
-    width: calc(100% - 250px);
-    height: 100px;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    z-index: 900;
-    margin-left: auto;
-}
-
-button{
-    padding: 10px 30px;
-    background-color: transparent;
-    border:solid 2px white;
-    border-radius: 40px;
-}
-
-a{
-    text-decoration: none;
-    color: #73767b;
-    font-weight: 600;
-}
-
-header a {
-    font-size: 20px;
-    color: white;
-}
-
-header div{
-    margin-right: 5px;
-}
-
 /*SETTING NAV*/
 nav{
     position: fixed;
@@ -140,6 +102,44 @@ h3 , h2{
     font-size: 16px;
 }
 
+/*HEADER*/
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.219);
+    width: calc(100% - 250px);
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 900;
+    margin-left: auto;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: transparent;
+    border:solid 2px white;
+    border-radius: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: #73767b;
+    font-weight: 600;
+}
+
+header a {
+    font-size: 15px;
+    color: white;
+}
+
+header div{
+    margin-right: 5px;
+}
+
 /*CONTENITOR MAIN*/
 #contenitor{
     display: flex;
@@ -151,7 +151,8 @@ h3 , h2{
 #content-menu{
     display: flex;
     justify-content: center;
-    gap: 2rem; 
+    flex-wrap: wrap;
+    gap: 1rem; 
 }
 
 section{
@@ -163,8 +164,9 @@ section{
 .images-contenitor{
     margin: 2rem 0;
     display: flex;
-    gap: 1rem;
     text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
     width: 100%;
 }
 .images-contenitor img{
@@ -172,7 +174,7 @@ section{
     width: 100%;
 }
 .brani{
-    width:calc(100%/6) ;
+    width:calc(100% / 6 - 10px) ;
 }
 .image{
    
@@ -268,6 +270,16 @@ footer hr{
 
 
 @media screen and (max-width: 1020px) {
-    
-    
+
+    .brani{
+        width:calc(100% / 4 - 10px) ;
+    }
+
+    #content-menu{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.5rem; 
+    }
 }
