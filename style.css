@@ -184,16 +184,43 @@ footer > section{
 footer h5{
     margin: 0;
 }
+#left-player i{
+    color: #73767b;
+}
 
 /*Central player*/
 #central-player{
+    flex-direction: column;
     justify-content: center;
  
 }
 
+#central-player-up{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.payer-hr-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer hr{
+    width: 80%;
+    border: solid 2px #73767b;
+}
+.fa-circle-play{
+    font-size: 40px;
+}
+
 /*Right player*/
 #right-player{
- 
     justify-content: flex-end;
- 
+}
+
+.volum{
+    width: 40%;
 }
