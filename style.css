@@ -234,10 +234,6 @@ section{
     position: relative;
 }
 
-.image:hover img{
-    filter:grayscale(0.5);
-    filter: blur(0.5);
-}
 
 img{
     width: 100%;
