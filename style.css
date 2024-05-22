@@ -152,10 +152,14 @@ header{
 }
 
 button{
-    padding: 10px 30px;
+    padding: 1rem;
     background-color: transparent;
     border:solid 2px white;
     border-radius: 40px;
+}
+header div button:hover{
+    transition: all ;
+    padding: 1.2rem;
 }
 
 a{
@@ -171,6 +175,7 @@ header a {
 
 header div{
     margin-right: 5px;
+    transition: all 2s;
 }
 
 /*CONTENITOR MAIN*/
