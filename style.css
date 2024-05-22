@@ -221,7 +221,7 @@ section{
 }
 
 .image:hover .hided-play{
-    display: inline-block;
+    display: block;
     font-size: 500%;
     color: white;
     position: absolute;
