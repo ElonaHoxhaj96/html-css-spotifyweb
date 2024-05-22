@@ -173,7 +173,9 @@ header div{
     flex-wrap: wrap;
     gap: 10px; 
 }
-#content-menu li:first-child{
+#content-menu hr{
+    margin: auto;
+    width: 3rem;
     border-bottom: solid 0.1rem greenyellow;
 }
 
@@ -334,6 +336,12 @@ footer hr{
     #logo a{
         display: none;
 
+    }
+    #content-menu hr{
+        display:block;
+        margin: auto;
+        width: 3rem;
+        border-bottom: solid 0.1rem greenyellow;
     }
     #contenitor, header {
         width: calc(100% - 50px);
