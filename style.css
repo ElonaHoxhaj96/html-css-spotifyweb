@@ -330,7 +330,7 @@ footer h5{
    border-radius: 20px;
 }
 
-div:hover hr{
+.payer-hr-bar > div:hover hr{
     display: inline-block;
 }
 
