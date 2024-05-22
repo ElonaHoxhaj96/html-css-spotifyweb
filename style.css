@@ -289,6 +289,12 @@ footer h5{
 #left-player i{
     color: #73767b;
 }
+#left-player a{
+    font-size: 0.8rem;
+}
+#left-player a:hover{
+    text-decoration: underline;
+}
 
 /*Central player*/
 #central-player{
