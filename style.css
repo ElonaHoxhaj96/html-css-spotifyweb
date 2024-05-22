@@ -314,12 +314,27 @@ footer h5{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 0.5rem;
+}
+.payer-hr-bar div{
+    width: 100%;
+    display: inline-block;
+    border: solid 0.15rem #73767b;
+    border-radius: 20px;
 }
 
-footer hr{
-    width: 80%;
-    border: solid 0.1rem #73767b;
+.payer-hr-bar div > hr{
+   width: 30%;
+   display: none;
+   border: solid 0.5rem  greenyellow;
+   border-radius: 20px;
 }
+
+div:hover hr{
+    display: inline-block;
+}
+
+
 #play-footer{
     font-size: 40px;
 }
