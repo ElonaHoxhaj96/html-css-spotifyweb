@@ -5,6 +5,10 @@
     font-family: "Montserrat";
     color: #73767b;
 }
+
+*:hover{
+    color: white;
+}
 /*SETTING NAV*/
 nav{
     position: fixed;
@@ -46,6 +50,10 @@ i{
 #home li:first-child{
     position: relative;
 }
+#home > li:first-child a, li:first-child i {
+    color: white;
+}
+
 #home li:first-child >hr{
     border: solid 0.1rem greenyellow;
     position: absolute;
