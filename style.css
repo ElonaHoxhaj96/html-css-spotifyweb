@@ -43,6 +43,10 @@ i{
     margin-right: 0.5rem;
 }
 
+#home li:first-child{
+    border-left: solid 0.1rem greenyellow;
+}
+
 .home-icons{
     font-size: 25px;
 }
@@ -169,6 +173,9 @@ header div{
     flex-wrap: wrap;
     gap: 10px; 
 }
+#content-menu li:first-child{
+    border-bottom: solid 0.1rem greenyellow;
+}
 
 section{
     width: 100%;
@@ -264,7 +271,7 @@ footer h5{
 
 footer hr{
     width: 80%;
-    border: solid 2px #73767b;
+    border: solid 0.1rem #73767b;
 }
 .fa-circle-play{
     font-size: 40px;
@@ -309,6 +316,9 @@ footer hr{
     nav{
         width: 50px;
         align-items: center;
+    }
+    #home li:first-child{
+        border-left: none;
     }
 
     #spotify-logo{
