@@ -134,7 +134,6 @@ main{
     width: 100%;
 }
 
-
 /*HEADER*/
 header{
     position: fixed;
@@ -174,7 +173,6 @@ header a {
 
 header div{
     margin-right: 5px;
-    transition: all 2s;
 }
 
 /*CONTENITOR MAIN*/
@@ -218,8 +216,27 @@ section{
     width:calc(100% / 6 - 10px) ;
 }
 
-.brani:hover{
+.hided-play{
+    display: none
+}
 
+.image:hover .hided-play{
+    display: inline-block;
+    font-size: 500%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40px , -40px);
+}
+
+.image{
+    position: relative;
+}
+
+.image:hover img{
+    filter:grayscale(0.5);
+    filter: blur(0.5);
 }
 
 img{
@@ -298,7 +315,7 @@ footer hr{
     width: 80%;
     border: solid 0.1rem #73767b;
 }
-.fa-circle-play{
+#play-footer{
     font-size: 40px;
 }
 
