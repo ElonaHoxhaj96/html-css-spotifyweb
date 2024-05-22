@@ -5,23 +5,6 @@
     font-family: "Montserrat";
     color: #73767b;
 }
-
-/*MAIN*/
-main{
-    position: relative;
-    display: flex;
-    background-color: #141922;
-    /*DEBUG*/
-    width: 100%;
-    height: 100%;
-}
-
-#contenitor{
-    display: flex ;
-    padding: 100px 0;
-    width: 100%;
-}
-
 /*SETTING NAV*/
 nav{
     position: fixed;
@@ -42,6 +25,13 @@ nav{
 #logo{
     width: 80%;
     line-height: 50px;
+    color: white;
+}
+#spfy-icon {
+ background-color: white;
+ width: 30%;
+ filter: invert(1);
+ display: none;
 }
 
 ul{
@@ -104,6 +94,29 @@ h3 , h2{
     font-size: 16px;
 }
 
+#circle-profil{
+    clip-path: circle();
+    background-color: #73767b;
+    width: 30px;
+    padding: 3px;
+}
+
+/*SETTING MAIN*/
+main{
+    position: relative;
+    display: block;
+    background-color: #141922;
+    width: 100%;
+    height: 100%;
+}
+
+#contenitor{
+    display: flex ;
+    padding: 100px 0;
+    width: 100%;
+}
+
+
 /*HEADER*/
 header{
     position: fixed;
@@ -154,7 +167,7 @@ header div{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem; 
+    gap: 10px; 
 }
 
 section{
@@ -211,7 +224,7 @@ footer > section{
     width: calc(100% / 3);
     display: flex;   
     align-items: center;
-    gap: 1rem;
+    gap: 10px;
 }
 /*Left player*/
 #left-player{
@@ -266,7 +279,7 @@ footer hr{
     width: 40%;
 }
 
-
+/*DECKSTOP RESPONSIVE*/
 @media screen and (max-width: 1024px) {
 
     .brani{
@@ -282,6 +295,7 @@ footer hr{
     }
 }
 
+/*TABLET RESPONSIVE*/
 @media screen and (max-width: 768px) {
 
     .brani{
@@ -289,7 +303,33 @@ footer hr{
     }
 }
 
+/*PHONE RESPONSIVE*/
 @media screen and (max-width: 568px) {
 
+    nav{
+        width: 50px;
+        align-items: center;
+    }
+
+    #spotify-logo{
+        display: none;
+    }
+
+    #spfy-icon{
+        display: inline-block;
+        width: 35px;
+        margin-left: -5px;
+    }
+   
+    #logo a{
+        display: none;
+
+    }
+    #contenitor, header {
+        width: calc(100% - 50px);
+    }
+    #playlist-text , #playlist , #account span , hr ,  h4{
+        display: none;
+    }
    
 }
