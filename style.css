@@ -267,14 +267,14 @@ footer hr{
 }
 
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
 
     .brani{
         width:calc(100% / 4 - 10px) ;
     }
 
     #content-menu{
-        width: 95%;
+        width: 100%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -282,11 +282,14 @@ footer hr{
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
 
     .brani{
         width:calc(100% / 2 - 10px) ;
     }
+}
 
-  
+@media screen and (max-width: 568px) {
+
+   
 }
