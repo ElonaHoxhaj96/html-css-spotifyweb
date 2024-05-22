@@ -22,8 +22,7 @@ nav{
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
+    gap: 2rem;
 }
 
 #logo{
@@ -89,6 +88,7 @@ h3 , h2{
 /*Nav account section*/
 #account{
     width: 100%;
+    margin-top: auto;
     align-content: flex-end;
 }
 #account-instal{
