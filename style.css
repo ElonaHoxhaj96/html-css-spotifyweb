@@ -44,7 +44,13 @@ i{
 }
 
 #home li:first-child{
-    border-left: solid 0.1rem greenyellow;
+    position: relative;
+}
+#home li:first-child >hr{
+    border: solid 0.1rem greenyellow;
+    position: absolute;
+    height: 100%;
+    margin-left: -1rem;
 }
 
 .home-icons{
@@ -319,8 +325,8 @@ footer hr{
         width: 50px;
         align-items: center;
     }
-    #home li:first-child{
-        border-left: none;
+    #home li:first-child >hr{
+        display: none;
     }
 
     #spotify-logo{
